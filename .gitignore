@@ -1,0 +1,19 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+venv/
+ENV/
+env/
+.env
+
+# Excel/CSV files (if we don't want to publish local data to public repo, but wait, the user might want them. Let's exclude .xlsx for clean code, or keep them? Let's exclude temporary and local files but maybe keep template code)
+*.xlsx
+*.csv
+*.json
+
+# OS files
+.DS_Store
+.localized
+Thumbs.db
