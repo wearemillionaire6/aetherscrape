@@ -17,3 +17,7 @@ env/
 .DS_Store
 .localized
 Thumbs.db
+
+# Exclude projects from tracking in parent repository
+wandertales/
+aura-salon/
