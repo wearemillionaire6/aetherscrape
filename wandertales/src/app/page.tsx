@@ -4,6 +4,7 @@ import { useState, useEffect } from 'react';
 import ScrollExpandMedia from '@/components/ui/scroll-expansion-hero';
 import { ExploreSlideshow } from '@/components/ui/ExploreSlideshow';
 import { PlaceInformation } from '@/components/ui/PlaceInformation';
+import { ImageAutoSlider } from '@/components/ui/image-auto-slider';
 import { useBookingStore } from '@/lib/store';
 import Image from 'next/image';
 import { ArrowUpRight, HelpCircle, RefreshCw } from 'lucide-react';
@@ -141,6 +142,11 @@ export default function HomePage() {
         scrollToExpand="SCROLL DOWN TO EXPAND NARRATIVE"
         textBlend={true}
       >
+        {/* Infinite Image Auto Slider (Full-Width Visual Preamble) */}
+        <div className="-mt-16 md:-mt-32 w-full mb-16">
+          <ImageAutoSlider />
+        </div>
+
         {/* Clean White Screen Specialties & Offerings (rendered once expanded) */}
         <div className="max-w-6xl mx-auto py-16 px-6 text-black space-y-32">
           

@@ -9,7 +9,6 @@ import { Menu, X } from 'lucide-react';
 const NAV_ITEMS = [
   { label: 'Home', href: '/' },
   { label: 'Philosophy', href: '/about' },
-  { label: 'Manage Trips', href: '/manage-trips' },
   { label: 'Register', href: '/login' },
 ];
 
